@@ -20,3 +20,7 @@ NO TERMINAL DIGITE:
 CRIANDO A APLICAÇÃO CORE:
 
   - python manage.py startapp nomeapp
+
+-----------------------------------------------------------------------------------
+
+
