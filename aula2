@@ -1,6 +1,18 @@
+
+---------------------------------------------------------------------------------
+ENTRAR NO SERVIDOR:
+
+  cd pasta do projeto
+  source virtualenv/bin/activate
+  cd "ex: blog"
+  python manage.py runserver
+
+-----------------------------------------------------------------------------------
+
 Como criar um usuário no http://127.0.0.1:xxxx/admin:
 
 NO TERMINAL DIGITE:
 
   python manage.py createsuperuser
 
+-----------------------------------------------------------------------------------
