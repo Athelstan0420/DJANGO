@@ -2,46 +2,19 @@
 - COMO INSTALAR O DJANGO PELO TERMINAL LINUX: https://youtu.be/rV1l9LSlI2s?si=ZdXGn_kdIAiaIXYm
 
 
-
 COMANDOS:
   
     Criar uma pasta NO PC;
-
-
     Entrar no terminal e acessar essa pasta;
-
-
     cd áreatrabalho/etc/
-
-
     python3 --version (verificar se tem o python instalado)
-
-
     python3 -m venv virtualenv
-
-
     ls
-
-
     source virtualenv/bin/activate
-
-
     pip install django
-
-
     pip freeze 
-
-
     django-admin startproject blog
-
-
     ls
-
-
     cd blog 
-
-
     ls
-
-
     python manage.py runserver
