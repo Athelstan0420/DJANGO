@@ -16,3 +16,7 @@ NO TERMINAL DIGITE:
   python manage.py createsuperuser
 
 -----------------------------------------------------------------------------------
+
+CRIANDO A APLICAÇÃO CORE:
+
+  - python manage.py startapp nomeapp
