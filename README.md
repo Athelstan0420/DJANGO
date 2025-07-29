@@ -1,3 +1,3 @@
 # DJANGO
 
-VÍDEO AULAS: https://youtu.be/AMFbBHcQ9T8?si=XxbbJLUl40hAYlQY
+VÍDEO AULAS: https://youtube.com/playlist?list=PLBblAqWgrgnPDAhR2QDm2jITLlnabDh6y&si=hF2FvJUIq7GB4Zmv
