@@ -17,7 +17,7 @@ NO TERMINAL DIGITE:
 
 -----------------------------------------------------------------------------------
 
-#CRIANDO A APLICAÇÃO CORE:
+#CRIANDO A APLICAÇÃO CORE (aplicações no projeto django):
 
   - python manage.py startapp nomeapp
 
@@ -48,4 +48,4 @@ INSTALLED_APPS = [
 
 -------------------------------------------------------------------------------------
 
-
+  
