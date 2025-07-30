@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'nomedoapp' <------
 ]
 
+* crie uma pasta chamada: 'urls.py'
 * Isso criará uma pasta contendo os arquivos de views, tests, models, apps, etc.
 
 -----------------------------------------------------------------------------------
