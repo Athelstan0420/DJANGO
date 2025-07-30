@@ -52,4 +52,12 @@ INSTALLED_APPS = [
 
 -------------------------------------------------------------------------------------
 
-  
+Sobre URLs do blog:
+
+from django.urls import path, include #import o include
+
+# urlpatterns = [
+    path('admin/', admin.site.urls), # padrão
+    path('', include(('core.urls', 'core'), namespace='core')) # LINHA INCLUÍDA APENAS PARA FAZER REFERENCIAS AS URLS DA PASTA CORE;
+]
+-------------------------------------------------------------------------------------
