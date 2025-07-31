@@ -3,7 +3,7 @@
 #CRIANDO A APLICAÇÃO CORE (aplicações no projeto django):
 
   - python manage.py startapp nomeapp
-
+  - Normalmente se usa o nome 'core' como o nome do app;
 
 #INCLUIR NO SETTINGS.PY:
 
