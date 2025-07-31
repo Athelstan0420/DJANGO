@@ -1,0 +1,15 @@
+from django.shortcuts import render
+
+# Create your views here.
+
+# Aqui você faz requisições das páginas.html que você fez através de funções;
+
+def index(request):
+    return render(request, 'core/index.html')
+
+def sobre(request):
+    return render(request, 'core/sobre.html')
+
+def chavepublica(resquest):
+    return render(resquest, 'core/chavepublica.html')
+
