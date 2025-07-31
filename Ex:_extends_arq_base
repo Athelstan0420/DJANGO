@@ -1,0 +1,39 @@
+{% extends 'core/base.html'%}
+{% load static %}
+{% block content %}
+
+<br><br><br>
+<header class="container">
+  <h1 id="titulo">QUEM SOMOS NÓS ?</h1>
+</header>
+
+<section class="container" id="camptext">
+  <p>
+    Bem-vindo ao Cotação Bitcoin, um espaço criado com o propósito de informar, educar e empoderar os usuários sobre o
+    universo das criptomoedas, com foco especial no Bitcoin. Aqui, você encontrará atualizações em tempo real da cotação
+    do Bitcoin em diversas moedas, análises, artigos, vídeos educativos e recomendações de leitura para aprofundar seu
+    entendimento sobre o funcionamento dessa tecnologia revolucionária.
+    Nosso objetivo vai além de apresentar números: queremos promover a conscientização financeira, oferecendo conteúdos
+    acessíveis tanto para iniciantes quanto para entusiastas mais experientes. Acreditamos que o conhecimento é a melhor
+    forma de proteger seu patrimônio e tomar decisões conscientes em um mercado cada vez mais digital.
+    Por que este site existe?
+    Para ajudar você a entender o que é o Bitcoin, por que ele importa, como utilizá-lo com segurança e quais impactos
+    ele pode causar na economia global.
+    O que você vai encontrar aqui?
+    Cotação atualizada em BRL e USD
+    Links úteis para artigos, livros, tutoriais e carteiras offline
+    Vídeos explicativos sobre Satoshi Nakamoto, inflação, e uso prático do BTC
+    O White Paper original do Bitcoin
+    O índice de Medo e Ganância do mercado
+    Dicas de segurança e os “10 mandamentos do Bitcoin”
+    Espaço para comentários e troca de ideias com a comunidade
+    Nosso compromisso:
+    Transparência, educação e autonomia financeira. Este projeto não está vinculado a corretoras ou interesses
+    comerciais — buscamos oferecer um ambiente neutro, educativo e confiável.
+    Se você acredita no futuro descentralizado da economia, ou simplesmente quer entender melhor o que há por trás do
+    termo blockchain, este site é seu ponto de partida.
+  </p>
+</section>
+
+{% endblock %}
+
