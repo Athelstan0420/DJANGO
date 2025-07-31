@@ -2,7 +2,7 @@
 
 
 
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTckjqKtZBXcjxqSi74DGO891i_8JabYhl5GbKXiPd8CQaOS5Zg62ogOyV0&s=10"/>
+<img style="text-align: center"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTckjqKtZBXcjxqSi74DGO891i_8JabYhl5GbKXiPd8CQaOS5Zg62ogOyV0&s=10"/>
 
     🌐 Sobre o Django
     
