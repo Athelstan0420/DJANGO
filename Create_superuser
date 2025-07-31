@@ -1,0 +1,7 @@
+Como criar um usuário no http://127.0.0.1:xxxx/admin:
+
+NO TERMINAL DIGITE:
+
+  python manage.py createsuperuser
+
+* depois disso é interativo e fácil de resolver;
