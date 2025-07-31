@@ -1,0 +1,23 @@
+-----------------------------------------------------------------------------------
+
+#CRIANDO A APLICAÇÃO CORE (aplicações no projeto django):
+
+  - python manage.py startapp nomeapp
+
+
+#INCLUIR NO SETTINGS.PY:
+
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'nomedoapp' <------
+]
+
+* crie uma pasta chamada: 'urls.py'
+* Isso criará uma pasta contendo os arquivos de views, tests, models, apps, etc.
+
+-----------------------------------------------------------------------------------
