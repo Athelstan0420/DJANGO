@@ -1,0 +1,59 @@
+<!-- Para carregar o css ou js: -->
+{% load static %} 
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" href="{% static 'css/sobre.css'%}">
+    <link rel="stylesheet" href="{% static 'css/chavepublica.css' %}">
+    <title></title>
+</head>
+
+<body onresize="mudoutamanho()">
+    <header>
+        <div id="barra">
+            <i id="botmenu" class="material-symbols-outlined" onclick="clickMenu()">menu</i>
+            <div id="itens">
+                <ul id="ul">
+                    <li class="li"><a href="index.html">INíCIO</a></li>
+                    <li class="li"><a href="sobre.html">SOBRE</a></li>
+                    <li class="li"><a href="chavepublica.html">CONTRIBUIR</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <script src="{% static 'js/scmenu.js'%}"></script>
+    <br>
+
+
+    {% block content %}
+    {% endblock %}
+
+
+    <br><br>
+    <!-- Caixa de comentários: -->
+    <div class="container" style="background-color: white;">
+        <div class="commentbox"></div>
+        <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+        <script>commentBox('5703677973102592-proj')</script>
+    </div>
+
+    <!--Rodapé:-->
+    <footer class="container">
+        <div>
+
+            <p style="color: white; text-align: center; padding: 3rem;"><b>&copy;Copyright</b></p>
+
+        </div>
+    </footer>
+    <!--===============================================-->
+</body>
+
+</html>
