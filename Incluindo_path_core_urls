@@ -1,0 +1,12 @@
+
+from django.urls import path
+from . import views # importar o arquivo views;
+
+app_name = 'core'
+
+urlpatterns = [
+    path('', views.index, name='index'),  <-----
+    path('sobre.html', views.sobre, name='sobre'),  <----
+    path('chavepublica.html', views.chavepublica, name='chavepublica')      <----
+
+]
