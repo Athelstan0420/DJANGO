@@ -1,0 +1,13 @@
+-----------------------------------------------------------------------------------
+
+# CRIAR PASTA 'STATIC' E DENTRO DELA CRIAR UMA PASTA PARA O CSS, E OUTRA P/ JS;
+
+- PARA CHAMAR O CONTEÚDO CSS/JS NO ARQUIVO HTML UTILIZE O '{% load static %}' ANTES DE INICIAR O DOCTYPE;
+
+- PARA CHAMAR O CSS:  <link rel="stylesheet" href="{% static 'css/main.css' %}">
+
+- PARA CHAMAR NO JS: <script src="{% static 'js/arquivos.js' %}"></script>
+
+- O HTML (INDEX.HMLT) ESTARÁ DENTRO DE OUTRA PASTA CHAMADA TAMPLATE FORA DA PASTA STATIC;
+
+-------------------------------------------------------------------------------------
