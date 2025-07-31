@@ -1,1 +1,9 @@
+---------------------------------------------------------------------------------
+ENTRAR NO SERVIDOR:
 
+  cd pasta do projeto
+  source virtualenv/bin/activate
+  cd "ex: blog"
+  python manage.py runserver
+
+-----------------------------------------------------------------------------------
