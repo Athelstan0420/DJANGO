@@ -32,7 +32,9 @@ CONFERIR NOME DA URL PATH
 
 {% endblock %}
 
-AGORA, NA VIEW VOCÊ FAZ A LÓGICA:
+AGORA, NA VIEW VOCÊ FAZ A LÓGICA (Ex:):
+
+    
 
 
 
