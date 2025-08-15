@@ -24,3 +24,9 @@ class Migration(migrations.Migration):
             ],
         ),
     ]
+
+
+
+AGORA, VOCÊ VAI ATUALIZAR O BANCO DE DADOS E ENVIAR ESSA MIGRATION PRA LA E IRÁ APARECER A TABELA:
+
+COMANDO: python3 manage.py migrate
