@@ -1,0 +1,21 @@
+from django.db import models
+
+# Create your models here.
+# Aqui nós utilizamos o conceito de ORM(permite uma linguagem manipular o banco de dados sem usar SQL);
+# O django já tem a sua prória ORM;
+# Aqui vamos utilizar de classes para representar uma tabela;
+
+
+# O parametro 'models.Model' é uma herança da classe Model que é responsável por pegar os dados da tabela e 
+# mandar pra o banco de dados;
+
+
+class Pessoa(models.Model):
+
+    nome = models.CharField(max_length=50)
+    senha = models.CharField(max_length=50)
+    # Metodo mágico python:
+    # define como um objeto será representado como string quando você o converte para str()
+    # ou quando ele é exibido, por exemplo, no print() ou no Django Admin.
+    def __str__(self) -> str:
+        return self.nome, self.senha
