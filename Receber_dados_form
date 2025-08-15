@@ -1,0 +1,42 @@
+
+
+
+ANTES DE TUDO CRIAR UMA VIEW PARA ESSA PÁGINA.
+CONFERIR NOME DA URL PATH
+
+
+{% extends 'core/base.html'%}
+{% load static %}
+{% block content %}
+
+<section class="container">
+
+    <!-- O formulário enviará os dados usando o método POST (mais seguro que GET). -->
+    <!-- O "action" para onde os dados serão enviando -->
+    <!-- O method é através de qual metodo será enviado: GET OU POST -->
+    <form action="{% url 'core:login' %}" method="POST">
+
+        <!-- tag do Django que insere um token de segurança invisível no seu formulário HTML -->
+        <!-- Se alguém tentar enviar um formulário falso sem esse token, o Django bloqueia o envio e retorna erro 403. -->
+        <!-- Você só precisa usar {% csrf_token %} quando o formulário estiver enviando dados via POST, como em: login -->
+        {% csrf_token %} 
+        <label for="login">LOGIN:</label>
+        <input name="login" type="text" placeholder="Digite seu login">
+        <label for="senha:">SENHA:</label>
+        <input name="senha" type="password" placeholder="Digite sua senha">
+        <button type="submit">Login</button>
+
+    </form>
+
+</section>
+
+{% endblock %}
+
+AGORA, NA VIEW VOCÊ FAZ A LÓGICA:
+
+
+
+
+
+
+
