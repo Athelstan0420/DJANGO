@@ -35,7 +35,6 @@ CONFERIR NOME DA URL PATH
 
 # AGORA, NA VIEW VOCÊ FAZ A LÓGICA (Ex:):
 
-
 from .models import Pessoa  # Chamndo o BD para salvar os dados do form
 def login(request):
     if request.method == 'GET':
@@ -43,8 +42,10 @@ def login(request):
     elif request.method == 'POST':
         nome = request.POST.get('login')
         senha = request.POST.get('senha')
-    
+        pessoa = Pessoa(nome=nome,senha=senha)
+        pessoa.save()
 
+---------------------------------------------------------------------------------
 
 
 
