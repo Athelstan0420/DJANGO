@@ -47,6 +47,19 @@ def login(request):
 
 ---------------------------------------------------------------------------------
 
+#EXEMPLO DE MODEL: 
+
+class Pessoa(models.Model):
+    
+    nome = models.CharField(max_length=50)
+    senha = models.CharField(max_length=50)
+
+    # Metodo mágico python:
+    # define como um objeto será representado como string quando você o converte para str()
+    # ou quando ele é exibido, por exemplo, no print() ou no Django Admin.
+    def __str__(self) -> str:
+        return self.nome
+
 
 
 
